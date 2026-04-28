@@ -1,0 +1,331 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "dftb",
+  "evidence": {
+    "core_skills": [
+      "dftbplus-dftb",
+      "dftbplus-build-and-install",
+      "dftbplus-test",
+      "dftbplus-getting-started",
+      "dftbplus-api-and-scripting",
+      "dftbplus-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/dftbplus-dftb.md",
+      "skills/.evidence/dftbplus-build-and-install.md",
+      "skills/.evidence/dftbplus-test.md",
+      "skills/.evidence/dftbplus-getting-started.md",
+      "skills/.evidence/dftbplus-api-and-scripting.md",
+      "skills/.evidence/dftbplus-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/dftbplus-api-and-scripting/SKILL.md",
+        "skills/dftbplus-api-and-scripting/references/doc_map.md",
+        "skills/dftbplus-api-and-scripting/references/source_map.md",
+        "skills/dftbplus-build-and-install/SKILL.md",
+        "skills/dftbplus-build-and-install/references/doc_map.md",
+        "skills/dftbplus-build-and-install/references/source_map.md",
+        "skills/dftbplus-dftb/SKILL.md",
+        "skills/dftbplus-dftb/references/doc_map.md",
+        "skills/dftbplus-dftb/references/source_map.md",
+        "skills/dftbplus-getting-started/SKILL.md",
+        "skills/dftbplus-getting-started/references/doc_map.md",
+        "skills/dftbplus-getting-started/references/source_map.md",
+        "skills/dftbplus-index/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/references/doc_map.md",
+        "skills/dftbplus-inputs-and-modeling/references/source_map.md",
+        "skills/dftbplus-test/SKILL.md",
+        "skills/dftbplus-test/references/doc_map.md",
+        "skills/dftbplus-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/dftbplus-api-and-scripting/SKILL.md",
+        "skills/dftbplus-api-and-scripting/references/doc_map.md",
+        "skills/dftbplus-api-and-scripting/references/source_map.md",
+        "skills/dftbplus-build-and-install/SKILL.md",
+        "skills/dftbplus-build-and-install/references/doc_map.md",
+        "skills/dftbplus-build-and-install/references/source_map.md",
+        "skills/dftbplus-dftb/SKILL.md",
+        "skills/dftbplus-dftb/references/doc_map.md",
+        "skills/dftbplus-dftb/references/source_map.md",
+        "skills/dftbplus-getting-started/SKILL.md",
+        "skills/dftbplus-getting-started/references/doc_map.md",
+        "skills/dftbplus-getting-started/references/source_map.md",
+        "skills/dftbplus-index/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/references/doc_map.md",
+        "skills/dftbplus-inputs-and-modeling/references/source_map.md",
+        "skills/dftbplus-test/SKILL.md",
+        "skills/dftbplus-test/references/doc_map.md",
+        "skills/dftbplus-test/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/dftbplus-analysis-and-output/SKILL.md",
+        "skills/dftbplus-analysis-and-output/references/doc_map.md",
+        "skills/dftbplus-analysis-and-output/references/source_map.md",
+        "skills/dftbplus-api-and-scripting/references/source_map.md",
+        "skills/dftbplus-build-and-install/references/source_map.md",
+        "skills/dftbplus-developer-guide/SKILL.md",
+        "skills/dftbplus-developer-guide/references/doc_map.md",
+        "skills/dftbplus-developer-guide/references/source_map.md",
+        "skills/dftbplus-dftb/SKILL.md",
+        "skills/dftbplus-dftb/references/source_map.md",
+        "skills/dftbplus-getting-started/SKILL.md",
+        "skills/dftbplus-getting-started/references/source_map.md",
+        "skills/dftbplus-index/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/references/source_map.md",
+        "skills/dftbplus-test/SKILL.md",
+        "skills/dftbplus-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/dftbplus-analysis-and-output/SKILL.md",
+        "skills/dftbplus-analysis-and-output/references/doc_map.md",
+        "skills/dftbplus-analysis-and-output/references/source_map.md",
+        "skills/dftbplus-api-and-scripting/references/source_map.md",
+        "skills/dftbplus-build-and-install/references/source_map.md",
+        "skills/dftbplus-developer-guide/SKILL.md",
+        "skills/dftbplus-developer-guide/references/doc_map.md",
+        "skills/dftbplus-developer-guide/references/source_map.md",
+        "skills/dftbplus-dftb/SKILL.md",
+        "skills/dftbplus-dftb/references/source_map.md",
+        "skills/dftbplus-getting-started/SKILL.md",
+        "skills/dftbplus-getting-started/references/source_map.md",
+        "skills/dftbplus-index/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/SKILL.md",
+        "skills/dftbplus-inputs-and-modeling/references/source_map.md",
+        "skills/dftbplus-test/SKILL.md",
+        "skills/dftbplus-test/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary in-repo documentation is under doc/.",
+      "Important top-level docs also live at README.rst, INSTALL.rst, CONTRIBUTING.rst, and CHANGELOG.rst.",
+      "No dedicated in-repo tutorial or examples directory was found; README.rst points to the external DFTB+ Recipes site.",
+      "Autotest inputs under test/app are executable validation cases, not recommended user templates.",
+      "The generator was patched in this pass to parse LaTeX manual files under doc/dftb+/manual and to fix Python 3.11 f-string syntax."
+    ],
+    "package_name": "dftbplus",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "app",
+      "src",
+      "tools"
+    ],
+    "test_dirs": [
+      "test",
+      "utils/test"
+    ],
+    "tutorial_dirs": [],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus",
+  "run_id": "compile_20260428T014940981525Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "dftbplus-analysis-and-output",
+      "dftbplus-api-and-scripting",
+      "dftbplus-build-and-install",
+      "dftbplus-developer-guide",
+      "dftbplus-dftb",
+      "dftbplus-getting-started",
+      "dftbplus-index",
+      "dftbplus-inputs-and-modeling",
+      "dftbplus-test"
+    ],
+    "core_skill_ids": [
+      "dftbplus-dftb",
+      "dftbplus-build-and-install",
+      "dftbplus-test",
+      "dftbplus-getting-started",
+      "dftbplus-api-and-scripting",
+      "dftbplus-inputs-and-modeling"
+    ],
+    "deferred_gaps": [
+      "Top-level docs in the repo root are outside doc/ and should be merged into enriched skills manually after generation.",
+      "No dedicated in-repo tutorial directory exists; pass 2 should decide whether to route users to external DFTB+ Recipes or curated test-based examples.",
+      "The current dry-run groups many manual files into a broad dftb topic and will likely need manual renaming or splitting in pass 2."
+    ],
+    "goal": "Generate the initial DFTB+ skills set, then enrich the highest-impact routing skills for build, inputs, workflows, APIs, and validation.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Serial vs MPI builds and core CMake invocation",
+          "Optional externals and Slater-Koster test-data downloads",
+          "ctest or autotest execution and installation flow"
+        ],
+        "reason": "Build, dependency, and test setup questions are first-contact tasks, and the guidance is split across root docs, the manual, and CMake.",
+        "skill_id": "dftbplus-build-and-install",
+        "source_hints": [
+          "README.rst",
+          "INSTALL.rst",
+          "CMakeLists.txt",
+          "doc/dftb+/manual",
+          "utils"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "HSD input structure and parser conventions",
+          "Geometry and species setup",
+          "Slater-Koster parameter selection and restart-related inputs"
+        ],
+        "reason": "Most user questions reduce to HSD input structure, geometry setup, parameter files, and model-selection rules.",
+        "skill_id": "dftbplus-inputs-and-modeling",
+        "source_hints": [
+          "doc/dftb+/manual/hsd.tex",
+          "doc/dftb+/manual/setupgeom.tex",
+          "doc/dftb+/manual/dftbp.tex",
+          "src/dftbp/io",
+          "src/dftbp/dftbplus"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Core DFTB+ runs, restarts, and tagged outputs",
+          "MD, phonons, modes, transport, and time-dependent workflows",
+          "When to route to analysis or API skills"
+        ],
+        "reason": "DFTB+ exposes multiple run modes that should be routed through one workflow skill instead of scattered app-specific answers.",
+        "skill_id": "dftbplus-test",
+        "source_hints": [
+          "doc/dftb+/manual/restart_files.tex",
+          "doc/dftb+/manual/modes.tex",
+          "doc/dftb+/manual/phonons.tex",
+          "doc/dftb+/manual/transport.tex",
+          "app",
+          "src/dftbp/md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Python API installation and entry points",
+          "dptools conversions and post-processing",
+          "When to use library bindings vs standalone executables"
+        ],
+        "reason": "The repo ships both Python bindings and dptools utilities, so scripting questions need one clear docs-first route.",
+        "skill_id": "dftbplus-api-and-scripting",
+        "source_hints": [
+          "doc/api/ford",
+          "doc/dptools/api",
+          "tools/pythonapi",
+          "tools/dptools",
+          "test/tools/dptools"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Docs-first routing rules",
+          "Cross-links for build vs runtime vs scripting questions",
+          "Coverage of root docs, manual docs, and executable test examples"
+        ],
+        "reason": "Pass 3 should verify that the index routes build, runtime, scripting, and validation questions cleanly without overlap.",
+        "skill_id": "dftbplus-index",
+        "source_hints": [
+          "skills",
+          "README.rst",
+          "doc",
+          "test"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "dftbplus-test",
+      "dftbplus-inputs-and-modeling",
+      "dftbplus-getting-started",
+      "dftbplus-dftb",
+      "dftbplus-developer-guide",
+      "dftbplus-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-test/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-dftb/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-developer-guide/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dftb-dftbplus/skills/dftbplus-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "dftbplus-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "dftbplus-build-and-install",
+      "dftbplus-inputs-and-modeling",
+      "dftbplus-test",
+      "dftbplus-api-and-scripting",
+      "dftbplus-index"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 64,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
