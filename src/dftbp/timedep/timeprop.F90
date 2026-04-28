@@ -1504,6 +1504,9 @@ contains
         end if
 
         this%presentField(:) = eFieldScaling%scaledExtEField(mxlField)
+        if (this%tLaser) then
+          this%presentField(:) = this%presentField(:) + this%tdFunction(:, iStep)
+        end if
         this%tdFieldIsSet = .true.
 
         call getMxlDipole(this, mxlDipoleStart)
@@ -4834,7 +4837,8 @@ contains
       this%initialVelocities(:,:) = this%movedVelo
       this%ReadMDVelocities = .true.
     end if
-    if (this%tLaser .and. .not. this%tdFieldThroughAPI .and. this%iCall == 1) then
+    if (this%tLaser .and. (.not. this%tdFieldThroughAPI .or. this%tMxlSocket)&
+        & .and. this%iCall == 1) then
       call getTDFunction(this, env, this%startTime)
     end if
 
