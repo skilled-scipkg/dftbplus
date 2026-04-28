@@ -15,6 +15,8 @@ description: This skill should be used when users ask how to use dftbplus and th
 - `dftbplus-build-and-install`: source builds, optional dependencies, MPI/OpenMP variants, `ctest`, install prefixes, and packaging.
 - `dftbplus-inputs-and-modeling`: HSD rules, geometry formats, species/k-points, Slater-Koster wiring, and charge-restart input choices.
 - `dftbplus-test`: runtime workflows, restarts, `modes`, `phonons`, transport execution, time-dependent runs, and regression-style validation.
+- `dftbplus-realtime-ehrenfest`: `ElectronDynamics`, `IonDynamics`, real-time perturbations, TD restarts, Ehrenfest outputs, and timeprop validation.
+- `dftbplus-maxwelllink-socket`: `MaxwellLinkSocket`, MaxwellLink TCP or UNIX socket setup, handshake semantics, and source-level debugging of the new socket-coupled TD path.
 - `dftbplus-api-and-scripting`: `libdftbplus`, Python/C/Fortran API entry points, and dptools conversions/post-processing scripts.
 - `dftbplus-dftb`: advanced feature selection and method-level routing for xTB, spin, onsite/solvent tables, transport-related physics, and time propagation.
 - `dftbplus-analysis-and-output`: `results.tag`, `band.out`, `detailed.xml`, `waveplot`, and quick CLI post-processing; for reusable scripts or library-driven post-processing, start in `dftbplus-api-and-scripting`.
