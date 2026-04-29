@@ -1,0 +1,4 @@
+interface:
+  display_name: "DFTB+ BOMD"
+  short_description: "Guide for DFTB+ Born-Oppenheimer MD"
+  default_prompt: "Use $dftbplus-bomd to guide a DFTB+ Born-Oppenheimer MD setup with Driver = VelocityVerlet, including restarts, thermostats, XLBOMD choices, or MaxwellLink routing."
